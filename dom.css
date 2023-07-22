@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #c0c0c0;
+}
+.theHead{
+    display: flex;
+    gap: 10px;
+}
+img{
+    width: 70px;
+    height: 70px;
+}
+h2{
+    font-size: 45px;
+    font-weight: bolder;
+}
+.info{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.info a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    background-color: #c0c0c0;
+    padding: 5px;
+    border-style: outset;
+    border-radius: 5px;
+}
+.cart{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.pic{
+    width: 200px;
+    height: 150px;
+    margin-bottom: 0;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.shoes{
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+
+}
+
+h3, span{
+    margin-left: 25px;
+}
+
+.cartLogo{
+    font-size: 60px;
+    margin-right: 10px;
+}
+.bi-bi-cart4{
+    border:1px solid black;
+}
+
+.addProduct{
+    background-color: #1e90ff;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 30px;
+}
+
+.total{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 30%;
+    border-radius: 5px;
+    margin-top: 0;
+}
+
+.summary{
+    height: 150px;
+}
+
+.finalItems{
+    height: 700px;
+    width: 90%;
+    margin-left: 20px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
